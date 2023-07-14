@@ -23,6 +23,32 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+html, body, #root {
+  height: 100%;
+  font-family:'fantasy';
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  flex: 1;
+}
+
+.content {
+  background: #fff;
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 1200px; /* Optional: Limit content width */
+}
+
+.centered-card {
+  max-width: 25%;
+  width: 100%;
+}
+
 
 .App-link {
   color: #61dafb;
